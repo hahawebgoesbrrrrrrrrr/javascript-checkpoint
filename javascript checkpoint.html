@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Checkpoint</title>
+</head>
+<body>
+    <p id="o"style="color: #00695c;">resultat:</p>
+    <button onclick="resultat()">x*y</button>
+
+    
+<script>
+    function resultat() {
+    let o = document.getElementById("o")
+    let x = prompt("x")
+    let y = prompt("y")
+    let r = x*y
+    o.style.color ="red"
+    o.innerHTML=r
+
+    }
+    
+    
+    </script>
+
+</body>
+</html>
